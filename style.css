@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #220594;
+    color: rgb(255, 255, 0);
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 251, 0);
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+/* Transitions */
+
+section {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+}
+
+.inactive {
+    opacity: 0;
+}
+
+.shadow-text-box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    position: relative;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.75);
+}
+
+.shadow-text-box p {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+.container {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transition {
+    transition: all 0.5s ease-in-out;
+}
+
+.transition:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+footer {
+    background-color: #220594;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10%;
+}
+.slideshow-box {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+section {
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+}
